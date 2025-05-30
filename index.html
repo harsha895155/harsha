@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Identification of How Many People Have Their Own Vehicle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Identification of How Many People Have Their Own Vehicle</h1>
+        <p class="subtitle">
+            <strong>Community Service Project Submission</strong><br>
+            <span>Submitted to Jawaharlal Nehru Technological University, Anantapur</span><br>
+            <span>By M. Muniraja, G. Venkata Teja, M. Vinay Kumar</span><br>
+            <span>Under the guidance of V. Bharathi, Associate Professor, Dept. of CSE (AI&ML), Geethanjali Institute of Science and Technology, Nellore</span>
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>Abstract</h2>
+            <p>
+                The study aims to examine the pattern of personal vehicle ownership through a CSP-based model. Influential factors like income level, public transportation availability, and government policies were incorporated into the constraints. The model accounted for budget constraints, parking availability, and environmental regulations. The findings are aimed at aiding policymakers and urban planners in making sustainable and data-driven decisions for transportation infrastructure.
+            </p>
+        </section>
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                Globally, vehicle ownership has been increasing, particularly due to higher incomes and urbanization. As per global data, there are over 1.4 billion cars in use, and the number continues to grow. Factors such as fuel prices, availability of public transportation, and government incentives affect ownership trends. In developed nations like the USA, vehicle ownership is high, whereas developing countries are witnessing rapid growth. However, the increase in vehicles leads to problems such as congestion and pollution. Understanding these trends is essential for informed transportation policies. This study applies CSP techniques to define constraints and analyze vehicle ownership patterns. For instance, individuals with lower incomes and better public transport access are less likely to own vehicles. In contrast, suburban residents with fewer transport alternatives are likely to own more vehicles.
+            </p>
+        </section>
+        <section>
+            <h2>Survey and Results</h2>
+            <div class="table-container">
+                <table id="surveyTable">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Name</th>
+                            <th>Vehicle Owned</th>
+                            <th>2-Wheeler</th>
+                            <th>3-Wheeler</th>
+                            <th>4-Wheeler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="stats">
+                <button onclick="calculateOwnership()">Show Ownership Statistics</button>
+                <div id="ownershipResults"></div>
+            </div>
+        </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+                From the data collected, it was identified that 84% of the participants own a personal vehicle, whereas 16% do not own any. This information helps to understand the extent of vehicle ownership within the surveyed population and supports further analysis of transport planning using CSP methodologies.
+                <a href="CSP.pdf">TVM CSP</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jawaharlal Nehru Technological University, Anantapur | Geethanjali Institute of Science and Technology, Nellore</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

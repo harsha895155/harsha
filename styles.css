@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa;
+    color: #222;
+}
+
+header {
+    background: #284e87;
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 0.3em 0;
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 900px;
+    background: #fff;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #284e87;
+    margin-top: 0;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    background: #fafbfc;
+}
+
+th, td {
+    padding: 0.6em 1em;
+    border: 1px solid #dbe2ea;
+    text-align: center;
+}
+
+th {
+    background: #e6eef7;
+    color: #222;
+}
+
+.stats {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+button {
+    background: #284e87;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #203b63;
+}
+
+#ownershipResults {
+    margin-top: 1em;
+    font-weight: bold;
+    color: #284e87;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #e6eef7;
+    color: #284e87;
+    font-size: 0.95em;
+    margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+    table, th, td {
+        font-size: 0.95em;
+    }
+}
